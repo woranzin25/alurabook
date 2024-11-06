@@ -17,3 +17,6 @@ body {
 h1 {
     background-color: white;
 }
+
+@import url("styles/header.css");
+@import url("styles/banner.css");
