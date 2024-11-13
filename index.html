@@ -83,6 +83,13 @@
 
   <!-- If we need scrollbar -->
   <div class="swiper-scrollbar"></div>
+  <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro Guia front end"></div>
+
+<div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
+<div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
+
+<!-- If we need pagination -->
+<div class="swiper-pagination"></div>
 </div>
     <section class="banner">
       <h2 class="banner__titulo">Já sabe por onde começar?</h2>
@@ -100,3 +107,13 @@
 </body>
 
 </html>
+<script>
+  const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+      },
+  });
+</script>
