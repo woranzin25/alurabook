@@ -12,6 +12,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="styles.css">
+  <link
+  href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
 </head>
 
 <body>
@@ -39,7 +43,10 @@
           <a href="#" class="lista-menu__link">Design & UX</a>
         </li>
       </ul>
-      <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
+      <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem" />
+      <h1 class="container__titulo">
+        <b class="container__titulo--negrito">Alura</b>Books
+      </h1>
     </div>
     <div class="container">
       <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem"></a>
@@ -222,3 +229,43 @@
 </body>
 
 </html>
+
+<ul class="opções">
+  <input type="checkbox" id="opções-menu" class="opções__botão" />
+  <label for="opções-menu">
+    <li class="opções__item">Categorias</li>
+  </label>
+
+  <ul class="lista-menu">
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Programação</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Front-end</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Infraestrutura</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Business</a>
+    </li>
+    <li class="lista-menu__item">
+      <a href="#" class="lista-menu__link">Design & UX</a>
+    </li>
+  </ul>
+  <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+  <li class="opções__item">
+    <a href="#" class="opções__link">Minha estante</a>
+  </li>
+</ul>
+
+<div class="container">
+  <a href="#"
+    ><img
+      src="img/Favoritos.svg"
+      alt="Meus favoritos"
+      class="container__imagem container__imagem-transparente"
+  /></a>
+
+  <!-- Código omitido -->
+</div>
